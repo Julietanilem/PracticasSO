@@ -1,0 +1,2 @@
+/home/julietanilem/sexto_semestre/sistemas operativos/Practica1_JulietaFlores/build/_deps/picotool-build/enc_bootloader/CMakeFiles/edit_cache.dir
+/home/julietanilem/sexto_semestre/sistemas operativos/Practica1_JulietaFlores/build/_deps/picotool-build/enc_bootloader/CMakeFiles/rebuild_cache.dir
