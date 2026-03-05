@@ -1,0 +1,7 @@
+/home/julietanilem/sexto_semestre/sistemas operativos/PracticasSO/Lab 2/build/_deps/picotool/picotool
+/home/julietanilem/sexto_semestre/sistemas operativos/PracticasSO/Lab 2/build/_deps/picotool/picotoolTargets.cmake
+/home/julietanilem/sexto_semestre/sistemas operativos/PracticasSO/Lab 2/build/_deps/picotool/picotoolTargets-release.cmake
+/home/julietanilem/sexto_semestre/sistemas operativos/PracticasSO/Lab 2/build/_deps/picotool/picotoolConfig.cmake
+/home/julietanilem/sexto_semestre/sistemas operativos/PracticasSO/Lab 2/build/_deps/picotool/picotoolConfigVersion.cmake
+/home/julietanilem/sexto_semestre/sistemas operativos/PracticasSO/Lab 2/build/_deps/picotool/enc_bootloader.elf
+/home/julietanilem/sexto_semestre/sistemas operativos/PracticasSO/Lab 2/build/_deps/picotool/enc_bootloader_mbedtls.elf
