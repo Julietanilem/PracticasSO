@@ -19,6 +19,8 @@ typedef struct {
     task_state_t state;            // Estado de la tarea
     uint32_t stack[STACK_SIZE];    // Espacio de memoria de la pila
     void (*entry_point)(void);     // Función de la tarea
+    int weight;                     // Peso para el algoritmo de scheduling
+    int remaining_ticks;         // Ticks restantes para esta tarea en el scheduling
 } tcb_t;
 
 // Prototipos del planificador

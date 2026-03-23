@@ -38,6 +38,8 @@ int main() {
     task_create(1, task_animation);
     task_create(2, task3_infinite);
     task_create(3, task4_finite);
+  
+
 
     // 5. Configurar e iniciar SysTick
     // Para un reloj de 125MHz, contar 1,250,000 ciclos equivale a 10 milisegundos
@@ -46,10 +48,12 @@ int main() {
     // 0x07 = Habilita el Timer, habilita la Interrupción, y usa la fuente de reloj principal
     SYSTICK_CTRL = 0x07; 
 
-    // Esperar la conección 
+    // Esperar la conexión 
     while (!stdio_usb_connected()) {
         printf("Esperando conexión USB...\n");
-        sleep_ms(100);
+        for(volatile int i=0; i < 1000000; i++){
+            for (volatile int j=0; j < 100; j++);
+        }
     }
     printf("Conexión USB establecida.\n");
 
