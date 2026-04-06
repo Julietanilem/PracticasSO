@@ -3,14 +3,15 @@
 
 #include <stdint.h>
 
-#define MAX_TASKS 5
+#define MAX_TASKS 6
 #define STACK_SIZE 256 // 256 palabras de 32 bits = 1KB por tarea
 
 // Estados posibles de una tarea
 typedef enum {
     DORMANT, // Inactiva, no está en la cola
     READY,   // Lista para ejecutarse
-    RUNNING  // Ejecutándose actualmente
+    RUNNING,  // Ejecutándose actualmente
+    BLOCKED   // Bloqueada esperando un recurso
 } task_state_t;
 
 // Task Control Block
@@ -23,11 +24,25 @@ typedef struct {
     int remaining_ticks;         // Ticks restantes para esta tarea en el scheduling
 } tcb_t;
 
+
+// Semáforo basado en contador y cola FIFO de tareas bloqueadas
+typedef struct {
+    int32_t count;                 // Recursos disponibles
+    int wait_queue[MAX_TASKS];     // Índices de tareas en espera
+    int head;                      // Índice de lectura de la cola
+    int tail;                      // Índice de escritura de la cola
+} semaphore_t;
+
+
 // Prototipos del planificador
 void scheduler_init(void);
 void task_create(int id, void (*entry_point)(void));
 void task_start(int id);
 void k_task_exit(void);
 uint32_t schedule(uint32_t current_sp);
+
+// Primitivas de semáforo a nivel kernel
+void k_sem_wait(semaphore_t *sem);
+void k_sem_post(semaphore_t *sem);
 
 #endif

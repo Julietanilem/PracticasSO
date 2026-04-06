@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include "syscalls.h"
 
 /* Syscall ID for GPIO set operation*/
 #define SYS_GPIO_SET 1
@@ -8,6 +9,11 @@
 #define SYS_GPIO_DIR 3
 /* NEW: Syscall ID to terminate a task/process */
 #define SYS_EXIT 4
+/* Syscall ID to wait on a semaphore */
+#define SYS_SEM_WAIT   5
+/* Syscall ID to post a semaphore */
+#define SYS_SEM_POST   6
+
 
 // Declarations of kernel-level GPIO functions (defined in kernel_driver.c)
 extern void k_gpio_set(uint32_t pin, uint32_t value);
@@ -15,7 +21,8 @@ extern int k_gpio_get(uint32_t pin);
 extern void k_gpio_init(uint32_t pin, uint32_t output);
 // Declaration of scheduler exit function (defined in scheduler.c)
 extern void k_task_exit(void);
-
+extern void k_sem_wait(semaphore_t *sem);
+extern void k_sem_post(semaphore_t *sem);
 /*
  * @brief Kernel service handler for system calls.
  * @param svc_args: Pointer to the user stack frame.
@@ -47,7 +54,14 @@ void kernel_service(uint32_t *svc_args, uint32_t syscall_id) {
                 svc_args[0] = 0; // Success
             }
             break;
+         case SYS_SEM_WAIT:
+            k_sem_wait((semaphore_t *)svc_args[0]);
+            break;
 
+        case SYS_SEM_POST:
+            k_sem_post((semaphore_t *)svc_args[0]);
+            break;
+            
         case SYS_EXIT:
             // The task requested to terminate; delegate to the scheduler
             k_task_exit();

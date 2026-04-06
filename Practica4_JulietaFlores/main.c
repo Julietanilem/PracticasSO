@@ -67,3 +67,5 @@ int main() {
 
     return 0;
 }
+
+screen /dev/ttyACM12 115200

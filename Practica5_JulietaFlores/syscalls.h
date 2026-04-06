@@ -1,3 +1,5 @@
+#include "scheduler.h"
+
 #ifndef SYSCALLS_H
 #define SYSCALLS_H
 
@@ -5,6 +7,13 @@
  * @file syscalls.h
  * @brief Syscall interfaces for GPIO operations.
  */
+
+ /**
+ * @brief global semaphores for synchronization between subsystems and radio access.
+ */
+extern semaphore_t sem_radio;
+extern semaphore_t sem_energia;
+
 
 /**
  * @brief Syscalls interface for gpio write operation.
@@ -28,6 +37,18 @@ int sys_gpio_get(int pin);
  */
 int sys_gpio_dir(int pin, int output);
 
+
+/**
+ * @brief Syscalls interface to wait on a semaphore.
+ * @param sem Pointer to the semaphore object.
+ */
+void sys_sem_wait(semaphore_t *sem);
+
+/**
+ * @brief Syscalls interface to post a semaphore.
+ * @param sem Pointer to the semaphore object.
+ */
+void sys_sem_post(semaphore_t *sem);
 
 /**
  * @brief Syscalls interface to terminate a task.

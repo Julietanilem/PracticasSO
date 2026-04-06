@@ -3664,6 +3664,8 @@ CMakeFiles/practica5.dir/kernel_drivers.c.o: /home/julietanilem/sexto_semestre/s
   /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdint.h
 
 CMakeFiles/practica5.dir/kernel_service.c.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/kernel_service.c \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/scheduler.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/syscalls.h \
   /usr/arm-none-eabi/include/_newlib_version.h \
   /usr/arm-none-eabi/include/machine/_default_types.h \
   /usr/arm-none-eabi/include/stdint.h \
@@ -3816,6 +3818,7 @@ CMakeFiles/practica5.dir/scheduler.c.o: /home/julietanilem/sexto_semestre/sistem
   /usr/lib/gcc/arm-none-eabi/15.2.0/include/stdint.h
 
 CMakeFiles/practica5.dir/user_app.c.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/user_app.c \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/scheduler.h \
   /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/syscalls.h \
   /usr/arm-none-eabi/include/_ansi.h \
   /usr/arm-none-eabi/include/_newlib_version.h \
@@ -3841,9 +3844,9 @@ CMakeFiles/practica5.dir/user_app.c.o: /home/julietanilem/sexto_semestre/sistema
 
 /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/user_app.c:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/scheduler.h:
-
 /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/main.c:
+
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/scheduler.h:
 
 /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/kernel_service.c:
 

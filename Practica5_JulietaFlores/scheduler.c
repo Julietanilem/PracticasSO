@@ -6,6 +6,30 @@ tcb_t tasks[MAX_TASKS];
 int current_task = -1;
 int selected_task = -1;
 
+static inline int sem_queue_empty(const semaphore_t *sem) {
+    return sem->head == sem->tail;
+}
+
+static inline int sem_queue_full(const semaphore_t *sem) {
+    return ((sem->tail + 1) % MAX_TASKS) == sem->head;
+}
+
+
+static inline void sem_enqueue(semaphore_t *sem, int task_id) {
+    if (!sem_queue_full(sem)) {
+        sem->wait_queue[sem->tail] = task_id;
+        sem->tail = (sem->tail + 1) % MAX_TASKS;
+    }
+}
+
+static inline int sem_dequeue(semaphore_t *sem) {
+    if (sem_queue_empty(sem))
+        return -1;
+    int task_id = sem->wait_queue[sem->head];
+    sem->head = (sem->head + 1) % MAX_TASKS;
+    return task_id;
+}
+
 /**
  * @brief Initialize the task stack so it looks like an interrupted context.
  * @param id Task index in the task table.
@@ -41,59 +65,27 @@ void task_create(int id, void (*entry_point)(void)) {
     if (id >= 0 && id < MAX_TASKS) {
         tasks[id].entry_point = entry_point;
         tasks[id].state = DORMANT;
-        tasks[id].weight = 1;  // 1 tick = 10ms quantum
-        tasks[id].remaining_ticks = 1;
+        tasks[id].weight = 10;  
+        tasks[id].remaining_ticks = 10;
     }
 }
 
-/**
- * @brief Start a task by initializing its stack and setting it to READY.
- * @param id Task index.
- */
-void task_start(int id) {
-    if (id >= 0 && id < MAX_TASKS && tasks[id].state == DORMANT) {
-        init_task_stack(id);
-    }
-}
 
 /**
  * @brief SysTick handler called automatically by the hardware.
  */
 void isr_systick() {
-    // For Phase A, no input polling needed since tasks start automatically
     // 1. Non-blocking USB UART polling (disabled)
-    /*
+    
     int c = getchar_timeout_us(0); 
     if (c != PICO_ERROR_TIMEOUT) {
-        if (selected_task == -1) {
-            if (c >= '1' && c <= '5') {  // Updated to 5 tasks
-                selected_task = c - '1';
-                printf("Esperando peso para tarea %d...\n", selected_task + 1);
-            } else {
-                printf("Entrada no válida...\n");
-            }
-        } else {
-            if (c >= '1' && c <= '9') {
-                int new_weight = c - '0';
-
-                if (tasks[selected_task].state == DORMANT) {
-                    init_task_stack(selected_task);
-                }
-
-                tasks[selected_task].weight = new_weight;
-                tasks[selected_task].remaining_ticks = new_weight;
-
-                printf("Tarea %d con peso %d\n",
-                    selected_task + 1, new_weight);
-
-                selected_task = -1;
-            } else {
-                printf("Peso inválido\n");
-            }
+        if (c >= '1' && c <= '5') {
+            int task_id = c - '1';
+            init_task_stack(task_id);
         }
-    }
-    */
 
+    }
+    
     if (current_task != -1 &&
     tasks[current_task].remaining_ticks > 0)
     {
@@ -122,6 +114,43 @@ void k_task_exit(void) {
 }
 
 /**
+ * @brief Block the current task on a semaphore if no resource is available.
+ */
+void k_sem_wait(semaphore_t *sem) {
+    if (sem == NULL)
+        return;
+
+    if (sem->count > 0) {
+        sem->count--;
+        return;
+    }
+
+    if (current_task != -1) {
+        sem_enqueue(sem, current_task);
+        tasks[current_task].state = BLOCKED;
+        // Force a context switch immediately because this task cannot continue.
+        *(volatile uint32_t *)0xE000ED04 = (1 << 28);
+    }
+}
+
+/**
+ * @brief Unblock the next task waiting on the semaphore or increment the count.
+ */
+void k_sem_post(semaphore_t *sem) {
+    if (sem == NULL)
+        return;
+
+    int next = sem_dequeue(sem);
+    if (next >= 0) {
+        tasks[next].state = READY;
+
+        *(volatile uint32_t *)0xE000ED04 = (1 << 28);
+    } else {
+        sem->count++;
+    }
+}
+
+/**
  * @brief Pick the next runnable task using Round Robin.
  * @param current_sp Stack pointer of the task being switched out.
  * @return Stack pointer of the selected task, or current_sp if none is ready.
@@ -129,9 +158,10 @@ void k_task_exit(void) {
 
  uint32_t schedule(uint32_t current_sp) {
     // Save the SP of the task that was just paused
-    if (current_task != -1 && tasks[current_task].state == RUNNING) {
+     if (current_task != -1) {
         tasks[current_task].sp = (uint32_t *)current_sp;
-        tasks[current_task].state = READY; // Put it back in the ready queue
+        if (tasks[current_task].state == RUNNING)
+            tasks[current_task].state = READY;
     }
 
     // Round Robin algorithm

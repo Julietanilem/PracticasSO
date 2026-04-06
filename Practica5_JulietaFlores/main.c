@@ -21,6 +21,11 @@ extern void subsystem3(void);
 extern void subsystem4(void);
 extern void subsystem5(void);
 
+// Semáforos del kernel
+semaphore_t sem_radio = { .count = 1, .head = 0, .tail = 0 };
+semaphore_t sem_energia = { .count = 3, .head = 0, .tail = 0 };
+
+
 int main() {
     // 1. Inicializar I/O Estándar (Habilita printf y lectura por cable USB)
     stdio_init_all();
@@ -43,12 +48,8 @@ int main() {
     task_create(3, subsystem4);
     task_create(4, subsystem5);
 
-    // Start all tasks
-    task_start(0);
-    task_start(1);
-    task_start(2);
-    task_start(3);
-    task_start(4);
+
+  
   
 
 
@@ -68,9 +69,8 @@ int main() {
     }
     printf("Conexión USB establecida.\n");
 
-    printf("Kernel de la Practica 4 Iniciado.\n");
+    printf("Kernel de la Practica 5 Iniciado.\n");
     printf("Envia 1, 2, 3 o 4 por la terminal USB para encolar tareas.\n");
-
     // 6. Bucle Idle (El sistema descansa hasta que SysTick lo despierte)
     while (1) {
         __asm volatile ("wfi"); // Wait For Interrupt (Detiene el reloj del CPU para ahorrar energía)
