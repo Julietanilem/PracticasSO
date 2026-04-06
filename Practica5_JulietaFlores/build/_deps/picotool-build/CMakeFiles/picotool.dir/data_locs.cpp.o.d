@@ -1,5 +1,5 @@
 CMakeFiles/picotool.dir/data_locs.cpp.o: \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build/data_locs.cpp \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build/data_locs.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15/vector \
  /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \

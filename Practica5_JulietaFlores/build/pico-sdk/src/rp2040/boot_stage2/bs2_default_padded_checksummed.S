@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

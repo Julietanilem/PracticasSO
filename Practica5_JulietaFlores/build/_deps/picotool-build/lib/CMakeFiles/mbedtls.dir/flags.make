@@ -4,7 +4,7 @@
 # compile C with /usr/lib64/ccache/cc
 C_DEFINES = -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\"
 
-C_INCLUDES = -I/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/include -isystem /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include
+C_INCLUDES = -I/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/include -isystem /home/julietanilem/pico/pico-sdk/lib/mbedtls/include
 
 C_FLAGS = -O3 -DNDEBUG
 

@@ -65,8 +65,8 @@ void task_create(int id, void (*entry_point)(void)) {
     if (id >= 0 && id < MAX_TASKS) {
         tasks[id].entry_point = entry_point;
         tasks[id].state = DORMANT;
-        tasks[id].weight = 10;  
-        tasks[id].remaining_ticks = 10;
+        tasks[id].weight = 1;  
+        tasks[id].remaining_ticks = 1;
     }
 }
 

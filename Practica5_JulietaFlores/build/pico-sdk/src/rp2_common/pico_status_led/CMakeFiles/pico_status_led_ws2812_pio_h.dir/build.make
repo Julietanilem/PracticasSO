@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores
+CMAKE_SOURCE_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build
+CMAKE_BINARY_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build
 
 # Utility rule file for pico_status_led_ws2812_pio_h.
 
@@ -68,9 +68,9 @@ include pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws281
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h: pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
 
-pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h: _deps/pico_sdk-src/src/rp2_common/pico_status_led/ws2812.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ws2812.pio.h"
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/pico-sdk/src/rp2_common/pico_status_led && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 0 /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2_common/pico_status_led/ws2812.pio /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
+pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h: /home/julietanilem/pico/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ws2812.pio.h"
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/pico-sdk/src/rp2_common/pico_status_led && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 0 /home/julietanilem/pico/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/codegen:
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/codegen
@@ -85,10 +85,10 @@ pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/clean:
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/pico-sdk/src/rp2_common/pico_status_led && $(CMAKE_COMMAND) -P CMakeFiles/pico_status_led_ws2812_pio_h.dir/cmake_clean.cmake
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/pico-sdk/src/rp2_common/pico_status_led && $(CMAKE_COMMAND) -P CMakeFiles/pico_status_led_ws2812_pio_h.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/depend:
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2_common/pico_status_led /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/pico-sdk/src/rp2_common/pico_status_led /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores /home/julietanilem/pico/pico-sdk/src/rp2_common/pico_status_led /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/pico-sdk/src/rp2_common/pico_status_led /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/depend
 

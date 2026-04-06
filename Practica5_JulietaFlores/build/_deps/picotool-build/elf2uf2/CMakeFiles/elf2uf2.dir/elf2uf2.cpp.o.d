@@ -1,5 +1,5 @@
 elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15/cstdio \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -125,7 +125,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/inttypes.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
  /usr/include/c++/15/fstream /usr/include/c++/15/istream \
  /usr/include/c++/15/ios /usr/include/c++/15/bits/char_traits.h \
  /usr/include/c++/15/bits/localefwd.h \
@@ -161,11 +161,11 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
  /usr/include/c++/15/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/15/bits/fstream.tcc \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/boot_uf2_headers/include/boot/uf2.h \
+ /home/julietanilem/pico/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
  /usr/include/assert.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/elf_file.h \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/elf_file.h \
  /usr/include/c++/15/iostream \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/elf.h \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/elf.h \
  /usr/include/c++/15/sstream /usr/include/c++/15/bits/sstream.tcc \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/addresses.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/errors/errors.h
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/addresses.h \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/errors/errors.h

@@ -1,5 +1,5 @@
 errors/CMakeFiles/errors.dir/errors.cpp.o: \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/errors/errors.cpp \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/errors/errors.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15/cstdarg \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -10,7 +10,7 @@ errors/CMakeFiles/errors.dir/errors.cpp.o: \
  /usr/include/gnu/stubs-64.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/cpu_defines.h \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/errors/errors.h \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/errors/errors.h \
  /usr/include/c++/15/string /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/bits/stringfwd.h \
  /usr/include/c++/15/bits/memoryfwd.h \

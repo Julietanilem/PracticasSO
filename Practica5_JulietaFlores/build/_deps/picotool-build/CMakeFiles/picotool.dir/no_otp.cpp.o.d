@@ -1,5 +1,5 @@
 CMakeFiles/picotool.dir/no_otp.cpp.o: \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/no_otp.cpp \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/no_otp.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/15/algorithm \
  /usr/include/c++/15/bits/stl_algobase.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
@@ -69,7 +69,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: \
  /usr/include/c++/15/bits/stl_multimap.h \
  /usr/include/c++/15/bits/range_access.h \
  /usr/include/c++/15/bits/erase_if.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/otp.h \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/otp.h \
  /usr/include/c++/15/string /usr/include/c++/15/bits/stringfwd.h \
  /usr/include/c++/15/bits/char_traits.h \
  /usr/include/c++/15/bits/postypes.h /usr/include/c++/15/cwchar \
@@ -109,7 +109,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
  /usr/include/c++/15/cstddef /usr/include/c++/15/functional \
  /usr/include/c++/15/bits/std_function.h /usr/include/c++/15/typeinfo \
  /usr/include/c++/15/iterator /usr/include/c++/15/bits/stream_iterator.h \

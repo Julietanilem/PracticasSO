@@ -4,7 +4,7 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/boards/include/boards/pico.h"
-#include "/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
+#include "/home/julietanilem/pico/pico-sdk/src/boards/include/boards/pico.h"
+#include "/home/julietanilem/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:

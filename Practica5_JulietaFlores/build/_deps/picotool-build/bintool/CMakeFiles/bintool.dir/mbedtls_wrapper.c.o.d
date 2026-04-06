@@ -1,7 +1,7 @@
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
  /usr/include/stdc-predef.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -30,30 +30,30 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
  /usr/include/assert.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/sha256.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/private_access.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/build_info.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/private_access.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h \
+ /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/bits/pthread_stack_min.h /usr/include/bits/posix2_lim.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/check_config.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecdsa.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecp.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_util.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_time.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/inttypes.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/bignum.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
  /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
@@ -61,12 +61,12 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/md.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ctr_drbg.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/aes.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/entropy.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/md.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/entropy.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/pk.h \
- /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/version.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+ /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
  /usr/include/string.h /usr/include/strings.h

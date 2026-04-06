@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib64/ccache/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/errors
+CXX_INCLUDES = -I/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/errors
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores
+CMAKE_SOURCE_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build
+CMAKE_BINARY_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build
 
 # Utility rule file for picotoolForceReconfigure.
 
@@ -67,7 +67,7 @@ include CMakeFiles/picotoolForceReconfigure.dir/compiler_depend.make
 include CMakeFiles/picotoolForceReconfigure.dir/progress.make
 
 CMakeFiles/picotoolForceReconfigure:
-	/usr/bin/cmake -E touch_nocreate /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/CMakeLists.txt
+	/usr/bin/cmake -E touch_nocreate /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/CMakeLists.txt
 
 CMakeFiles/picotoolForceReconfigure.dir/codegen:
 .PHONY : CMakeFiles/picotoolForceReconfigure.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/picotoolForceReconfigure.dir/clean:
 .PHONY : CMakeFiles/picotoolForceReconfigure.dir/clean
 
 CMakeFiles/picotoolForceReconfigure.dir/depend:
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/picotoolForceReconfigure.dir/depend
 

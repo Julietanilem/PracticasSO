@@ -1,5 +1,5 @@
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/practica5.elf:     file format elf32-littlearm
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/practica5.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -43,18 +43,18 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  19 .debug_rnglists 00004263  00000000  00000000  00045330  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_line   00028d15  00000000  00000000  00049593  2**0
+ 20 .debug_line   000228a3  00000000  00000000  00049593  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_str    00009f96  00000000  00000000  000722a8  2**0
+ 21 .debug_str    00008f70  00000000  00000000  0006be36  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_frame  00002fc4  00000000  00000000  0007c240  2**2
+ 22 .debug_frame  00002fc4  00000000  00000000  00074da8  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_loclists 000197ab  00000000  00000000  0007f204  2**0
+ 23 .debug_loclists 000197ab  00000000  00000000  00077d6c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_line_str 0000064c  00000000  00000000  000989af  2**0
+ 24 .debug_line_str 000003fc  00000000  00000000  00091517  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/practica5.elf:     file format elf32-littlearm
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/practica5.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:
@@ -550,7 +550,7 @@ Disassembly of section .text:
 100004e2:	7103      	strb	r3, [r0, #4]
 100004e4:	4b04      	ldr	r3, [pc, #16]	@ (100004f8 <task_create+0x30>)
 100004e6:	18c2      	adds	r2, r0, r3
-100004e8:	230a      	movs	r3, #10
+100004e8:	2301      	movs	r3, #1
 100004ea:	6013      	str	r3, [r2, #0]
 100004ec:	2282      	movs	r2, #130	@ 0x82
 100004ee:	00d2      	lsls	r2, r2, #3
@@ -969,9 +969,9 @@ Disassembly of section .text:
 1000084a:	f000 f91f 	bl	10000a8c <sys_sem_post>
 1000084e:	e7dc      	b.n	1000080a <subsystem1+0x26>
 10000850:	20000f98 	.word	0x20000f98
-10000854:	001fca05 	.word	0x001fca05
+10000854:	005f5e10 	.word	0x005f5e10
 10000858:	20000fbc 	.word	0x20000fbc
-1000085c:	00005161 	.word	0x00005161
+1000085c:	0000f424 	.word	0x0000f424
 10000860:	10007304 	.word	0x10007304
 
 10000864 <subsystem2>:
@@ -1022,9 +1022,9 @@ Disassembly of section .text:
 100008ca:	f000 f8df 	bl	10000a8c <sys_sem_post>
 100008ce:	e7dc      	b.n	1000088a <subsystem2+0x26>
 100008d0:	20000f98 	.word	0x20000f98
-100008d4:	001fca05 	.word	0x001fca05
+100008d4:	005f5e10 	.word	0x005f5e10
 100008d8:	20000fbc 	.word	0x20000fbc
-100008dc:	00005161 	.word	0x00005161
+100008dc:	0000f424 	.word	0x0000f424
 100008e0:	100073a4 	.word	0x100073a4
 
 100008e4 <subsystem3>:
@@ -1075,9 +1075,9 @@ Disassembly of section .text:
 1000094a:	f000 f89f 	bl	10000a8c <sys_sem_post>
 1000094e:	e7dc      	b.n	1000090a <subsystem3+0x26>
 10000950:	20000f98 	.word	0x20000f98
-10000954:	001fca05 	.word	0x001fca05
+10000954:	005f5e10 	.word	0x005f5e10
 10000958:	20000fbc 	.word	0x20000fbc
-1000095c:	00005161 	.word	0x00005161
+1000095c:	0000f424 	.word	0x0000f424
 10000960:	10007444 	.word	0x10007444
 
 10000964 <subsystem4>:
@@ -1128,9 +1128,9 @@ Disassembly of section .text:
 100009ca:	f000 f85f 	bl	10000a8c <sys_sem_post>
 100009ce:	e7dc      	b.n	1000098a <subsystem4+0x26>
 100009d0:	20000f98 	.word	0x20000f98
-100009d4:	001fca05 	.word	0x001fca05
+100009d4:	005f5e10 	.word	0x005f5e10
 100009d8:	20000fbc 	.word	0x20000fbc
-100009dc:	00005161 	.word	0x00005161
+100009dc:	0000f424 	.word	0x0000f424
 100009e0:	100074e4 	.word	0x100074e4
 
 100009e4 <subsystem5>:
@@ -1181,9 +1181,9 @@ Disassembly of section .text:
 10000a4a:	f000 f81f 	bl	10000a8c <sys_sem_post>
 10000a4e:	e7dc      	b.n	10000a0a <subsystem5+0x26>
 10000a50:	20000f98 	.word	0x20000f98
-10000a54:	001fca05 	.word	0x001fca05
+10000a54:	005f5e10 	.word	0x005f5e10
 10000a58:	20000fbc 	.word	0x20000fbc
-10000a5c:	00005161 	.word	0x00005161
+10000a5c:	0000f424 	.word	0x0000f424
 10000a60:	10007584 	.word	0x10007584
 
 10000a64 <sys_gpio_dir>:

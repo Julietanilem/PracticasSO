@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build
 
 # Include any dependencies generated for this target.
 include elf/CMakeFiles/elf.dir/depend.make
@@ -70,17 +70,17 @@ elf/CMakeFiles/elf.dir/codegen:
 .PHONY : elf/CMakeFiles/elf.dir/codegen
 
 elf/CMakeFiles/elf.dir/elf_file.cpp.o: elf/CMakeFiles/elf.dir/flags.make
-elf/CMakeFiles/elf.dir/elf_file.cpp.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/elf_file.cpp
+elf/CMakeFiles/elf.dir/elf_file.cpp.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/elf_file.cpp
 elf/CMakeFiles/elf.dir/elf_file.cpp.o: elf/CMakeFiles/elf.dir/compiler_depend.ts
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build/elf && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT elf/CMakeFiles/elf.dir/elf_file.cpp.o -MF CMakeFiles/elf.dir/elf_file.cpp.o.d -o CMakeFiles/elf.dir/elf_file.cpp.o -c /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/elf_file.cpp
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build/elf && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT elf/CMakeFiles/elf.dir/elf_file.cpp.o -MF CMakeFiles/elf.dir/elf_file.cpp.o.d -o CMakeFiles/elf.dir/elf_file.cpp.o -c /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/elf_file.cpp
 
 elf/CMakeFiles/elf.dir/elf_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/elf.dir/elf_file.cpp.i"
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build/elf && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/elf_file.cpp > CMakeFiles/elf.dir/elf_file.cpp.i
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build/elf && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/elf_file.cpp > CMakeFiles/elf.dir/elf_file.cpp.i
 
 elf/CMakeFiles/elf.dir/elf_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/elf.dir/elf_file.cpp.s"
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build/elf && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/elf_file.cpp -o CMakeFiles/elf.dir/elf_file.cpp.s
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build/elf && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/elf_file.cpp -o CMakeFiles/elf.dir/elf_file.cpp.s
 
 # Object files for target elf
 elf_OBJECTS = \
@@ -92,18 +92,18 @@ elf_EXTERNAL_OBJECTS =
 elf/libelf.a: elf/CMakeFiles/elf.dir/elf_file.cpp.o
 elf/libelf.a: elf/CMakeFiles/elf.dir/build.make
 elf/libelf.a: elf/CMakeFiles/elf.dir/link.txt
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build/elf && $(CMAKE_COMMAND) -P CMakeFiles/elf.dir/cmake_clean_target.cmake
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build/elf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/elf.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build/elf && $(CMAKE_COMMAND) -P CMakeFiles/elf.dir/cmake_clean_target.cmake
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build/elf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 elf/CMakeFiles/elf.dir/build: elf/libelf.a
 .PHONY : elf/CMakeFiles/elf.dir/build
 
 elf/CMakeFiles/elf.dir/clean:
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build/elf && $(CMAKE_COMMAND) -P CMakeFiles/elf.dir/cmake_clean.cmake
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build/elf && $(CMAKE_COMMAND) -P CMakeFiles/elf.dir/cmake_clean.cmake
 .PHONY : elf/CMakeFiles/elf.dir/clean
 
 elf/CMakeFiles/elf.dir/depend:
-	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build/elf /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-build/elf/CMakeFiles/elf.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build/elf /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-build/elf/CMakeFiles/elf.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : elf/CMakeFiles/elf.dir/depend
 

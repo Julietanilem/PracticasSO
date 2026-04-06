@@ -142,12 +142,12 @@ CMakeFiles/picotool.dir/data_locs.cpp.o: data_locs.cpp \
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h
 
-CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/get_enc_bootloader.cpp \
+CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/get_enc_bootloader.cpp \
   enc_bootloader_elf.h \
   enc_bootloader_mbedtls_elf.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/data_locs.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/get_enc_bootloader.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/data_locs.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/get_enc_bootloader.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami++.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -376,9 +376,9 @@ CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /home/julietanilem/sexto_semes
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami++.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami.c \
+CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -581,8 +581,8 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/julietanilem/sexto_
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami.c \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami.h \
+CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami.c \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami.h \
   /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
@@ -652,54 +652,54 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/julietanilem/sexto_seme
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h
 
-CMakeFiles/picotool.dir/main.cpp.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/main.cpp \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/aes.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/bignum.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/build_info.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/check_config.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ctr_drbg.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecdsa.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecp.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/entropy.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/md.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/pk.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_time.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_util.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/private_access.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/sha256.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/version.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/boot_picobin_headers/include/boot/picobin.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/boot_picoboot_headers/include/boot/picoboot.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/boot_uf2_headers/include/boot/uf2.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/host/pico_platform/include/pico/platform.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/bintool/bintool.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/bintool/metadata.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/cli.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/clipp/clipp.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/addresses.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/elf.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/elf_file.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/errors/errors.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/get_enc_bootloader.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/otp.h \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+CMakeFiles/picotool.dir/main.cpp.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/main.cpp \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/private_access.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+  /home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
+  /home/julietanilem/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
+  /home/julietanilem/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+  /home/julietanilem/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+  /home/julietanilem/pico/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
+  /home/julietanilem/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/julietanilem/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/julietanilem/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/julietanilem/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/julietanilem/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/julietanilem/pico/pico-sdk/src/host/pico_platform/include/pico/platform.h \
+  /home/julietanilem/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /home/julietanilem/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
+  /home/julietanilem/pico/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/julietanilem/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/bintool/bintool.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/bintool/metadata.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/cli.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/clipp/clipp.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/addresses.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/elf.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/elf_file.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/errors/errors.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/get_enc_bootloader.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/otp.h \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1078,9 +1078,9 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/julietanilem/sexto_semestre/sistemas_o
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
   /usr/lib/gcc/x86_64-redhat-linux/15/include/syslimits.h
 
-CMakeFiles/picotool.dir/no_otp.cpp.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/no_otp.cpp \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
-  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/otp.h \
+CMakeFiles/picotool.dir/no_otp.cpp.o: /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/no_otp.cpp \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/otp.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1407,7 +1407,7 @@ elf/libelf.a:
 
 bintool/libbintool.a:
 
-CMakeFiles/picotool.dir/data_locs.cpp.o:
+CMakeFiles/picotool.dir/lib/whereami/whereami.c.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so:
 
@@ -1417,15 +1417,11 @@ CMakeFiles/picotool.dir/data_locs.cpp.o:
 
 /usr/lib64/libm.so:
 
-/lib64/libmvec.so.1:
-
 /lib64/libgcc_s.so.1:
 
 /lib64/libc.so.6:
 
 /lib64/ld-linux-x86-64.so.2:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/no_otp.cpp:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/syslimits.h:
 
@@ -1447,6 +1443,8 @@ CMakeFiles/picotool.dir/data_locs.cpp.o:
 
 /usr/include/c++/15/set:
 
+/usr/include/c++/15/regex:
+
 /usr/include/c++/15/numeric:
 
 /usr/include/c++/15/map:
@@ -1459,7 +1457,11 @@ CMakeFiles/picotool.dir/data_locs.cpp.o:
 
 /usr/include/c++/15/functional:
 
+/usr/include/c++/15/deque:
+
 /usr/include/c++/15/cuchar:
+
+/usr/include/c++/15/cstring:
 
 /usr/include/c++/15/cstdarg:
 
@@ -1489,8 +1491,6 @@ CMakeFiles/picotool.dir/data_locs.cpp.o:
 
 /usr/include/c++/15/bits/stl_deque.h:
 
-/usr/include/c++/15/bits/slice_array.h:
-
 /usr/include/c++/15/bits/regex_scanner.h:
 
 /usr/include/c++/15/bits/regex_executor.tcc:
@@ -1504,6 +1504,8 @@ CMakeFiles/picotool.dir/data_locs.cpp.o:
 /usr/include/c++/15/bits/regex_constants.h:
 
 /usr/include/c++/15/bits/regex_compiler.h:
+
+/usr/include/c++/15/bits/regex_automaton.tcc:
 
 /usr/include/c++/15/bits/regex_automaton.h:
 
@@ -1523,6 +1525,8 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/locale_facets_nonio.h:
 
+/usr/include/c++/15/bits/locale_conv.h:
+
 /usr/include/c++/15/bits/indirect_array.h:
 
 /usr/include/c++/15/bits/forward_list.tcc:
@@ -1531,9 +1535,11 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/bits/xopen_lim.h:
 
-/usr/include/bits/unistd_ext.h:
-
 /usr/include/bits/types/sigevent_t.h:
+
+lib/libmbedtls.a:
+
+/usr/include/bits/ss_flags.h:
 
 /usr/include/bits/sigthread.h:
 
@@ -1575,8 +1581,6 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/bits/iscanonical.h:
 
-/usr/include/bits/ioctls.h:
-
 /usr/include/bits/ioctl-types.h:
 
 /usr/include/linux/ioctl.h:
@@ -1587,8 +1591,6 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/bits/flt-eval-method.h:
 
-/usr/include/bits/confname.h:
-
 /usr/include/c++/15/cstdint:
 
 /usr/include/asm/ioctls.h:
@@ -1597,71 +1599,61 @@ CMakeFiles/picotool.dir/main.cpp.o:
 
 /usr/include/asm-generic/ioctls.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
+CMakeFiles/picotool.dir/data_locs.cpp.o:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
 
-/usr/include/c++/15/bits/locale_conv.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/otp.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/errors/errors.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/elf_file.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/errors/errors.h:
 
-/usr/include/c++/15/deque:
+/usr/include/bits/ioctls.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/elf.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
 
-/usr/include/c++/15/regex:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/elf_file.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/clipp/clipp.h:
+/usr/include/c++/15/bits/slice_array.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/cli.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/elf.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/bintool/metadata.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/elf/addresses.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/clipp/clipp.h:
 
-/usr/include/c++/15/cstring:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/cli.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/bintool/bintool.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
+/home/julietanilem/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/host/pico_platform/include/pico/platform.h:
+/home/julietanilem/pico/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
+/home/julietanilem/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+/usr/include/bits/unistd_ext.h:
 
-/usr/include/c++/15/bits/regex_automaton.tcc:
+/home/julietanilem/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/code.h:
+/home/julietanilem/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info.h:
+/home/julietanilem/pico/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/boot_uf2_headers/include/boot/uf2.h:
+/home/julietanilem/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+/home/julietanilem/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/boot_picoboot_headers/include/boot/picoboot.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/version.h:
-
-CMakeFiles/picotool.dir/lib/whereami/whereami.c.o:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/sha256.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/private_access.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_util.h:
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/version.h:
 
 /usr/lib64/crt1.o:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/pk.h:
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/private_access.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/md.h:
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecp.h:
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
 
 /usr/include/features-time64.h:
 
@@ -1671,7 +1663,7 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o:
 
 /usr/include/c++/15/ext/string_conversions.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/platform_time.h:
+/home/julietanilem/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/cpu_defines.h:
 
@@ -1691,8 +1683,6 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o:
 
 /usr/include/c++/15/string:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/get_enc_bootloader.cpp:
-
 /usr/include/c++/15/iosfwd:
 
 /usr/include/c++/15/initializer_list:
@@ -1711,17 +1701,19 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o:
 
 /usr/include/c++/15/bits/stl_function.h:
 
+/home/julietanilem/pico/pico-sdk/src/host/pico_platform/include/pico/platform.h:
+
 /usr/include/string.h:
 
 /usr/include/c++/15/ext/type_traits.h:
-
-/usr/include/c++/15/bits/functional_hash.h:
 
 /usr/include/c++/15/cstdlib:
 
 /usr/include/c++/15/bits/requires_hosted.h:
 
 /usr/include/bits/siginfo-arch.h:
+
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h:
 
 /usr/include/c++/15/cstdio:
 
@@ -1749,6 +1741,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h:
 
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/bintool/metadata.h:
+
 /usr/include/bits/stdlib-bsearch.h:
 
 /usr/include/bits/types/sigval_t.h:
@@ -1771,23 +1765,27 @@ CMakeFiles/picotool.dir/no_otp.cpp.o:
 
 /usr/include/c++/15/bits/std_abs.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/data_locs.h:
-
 /usr/lib64/libc.so:
 
 /usr/include/c++/15/bits/random.tcc:
+
+/home/julietanilem/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
 /usr/include/ctype.h:
 
 /usr/include/bits/waitflags.h:
 
-/usr/include/c++/15/bits/locale_facets.tcc:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/get_enc_bootloader.cpp:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/main.cpp:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami++.h:
+
+/usr/include/c++/15/bits/locale_facets.tcc:
 
 /usr/include/c++/15/bits/range_access.h:
 
 /usr/include/bits/local_lim.h:
+
+/home/julietanilem/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
 
 /usr/include/c++/15/bits/postypes.h:
 
@@ -1809,6 +1807,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/limits.h:
 
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/bintool/bintool.h:
+
 /usr/include/c++/15/algorithm:
 
 /usr/include/c++/15/bits/hash_bytes.h:
@@ -1821,12 +1821,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o:
 
 /usr/include/c++/15/bits/functexcept.h:
 
-lib/libmbedtls.a:
-
-/usr/include/bits/ss_flags.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_ssl.h:
-
 /usr/lib/gcc/x86_64-redhat-linux/15/libgcc_s.so:
 
 /usr/include/c++/15/compare:
@@ -1835,15 +1829,13 @@ lib/libmbedtls.a:
 
 /usr/include/c++/15/bits/cxxabi_forced.h:
 
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
+
 /usr/include/asm/bitsperlong.h:
 
 /usr/include/c++/15/bits/basic_string.h:
 
 /usr/include/c++/15/streambuf:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ctr_drbg.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
 /usr/include/bits/time64.h:
 
@@ -1865,8 +1857,6 @@ lib/libmbedtls.a:
 
 /usr/include/c++/15/bits/concept_check.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
-
 /usr/include/bits/types/sigset_t.h:
 
 /usr/include/bits/thread-shared-types.h:
@@ -1879,13 +1869,13 @@ lib/libmbedtls.a:
 
 /usr/include/bits/struct_mutex.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
-
 /usr/include/bits/pthreadtypes-arch.h:
 
 /usr/include/gnu/stubs.h:
 
 /usr/include/pthread.h:
+
+/usr/include/bits/long-double.h:
 
 /usr/include/c++/15/bits/regex_compiler.tcc:
 
@@ -1895,19 +1885,15 @@ lib/libmbedtls.a:
 
 data_locs.cpp:
 
-/usr/include/bits/long-double.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/boot_picobin_headers/include/boot/picobin.h:
+/usr/include/bits/libc-header-start.h:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/ctype_base.h:
 
 /usr/include/c++/15/istream:
 
-/usr/include/asm-generic/errno-base.h:
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/pk.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/get_enc_bootloader.h:
+/usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/15/bits/regex.h:
 
@@ -1947,8 +1933,6 @@ data_locs.cpp:
 
 /usr/include/bits/timesize.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
-
 /usr/include/inttypes.h:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/error_constants.h:
@@ -1960,8 +1944,6 @@ data_locs.cpp:
 /usr/include/c++/15/x86_64-redhat-linux/bits/atomic_word.h:
 
 /usr/include/bits/types/__locale_t.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
 
 /usr/include/c++/15/bits/invoke.h:
 
@@ -1976,8 +1958,6 @@ data_locs.cpp:
 /usr/include/bits/stdio_lim.h:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/ctype_inline.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/ecdsa.h:
 
 /usr/include/c++/15/cstddef:
 
@@ -2007,15 +1987,13 @@ data_locs.cpp:
 
 /usr/include/bits/types/wint_t.h:
 
-/usr/include/bits/libc-header-start.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/check_config.h:
-
 /usr/include/bits/environments.h:
 
 /usr/include/c++/15/cctype:
 
 /usr/include/bits/types/struct_FILE.h:
+
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/data_locs.h:
 
 enc_bootloader_mbedtls_elf.h:
 
@@ -2038,6 +2016,8 @@ enc_bootloader_mbedtls_elf.h:
 /usr/include/bits/types/time_t.h:
 
 /usr/include/bits/types/locale_t.h:
+
+/usr/include/c++/15/bits/alloc_traits.h:
 
 /usr/include/bits/time.h:
 
@@ -2093,13 +2073,9 @@ enc_bootloader_mbedtls_elf.h:
 
 /usr/lib64/crtn.o:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/src/common/pico_binary_info/include/pico/binary_info/structure.h:
-
 /usr/include/c++/15/bits/ios_base.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/entropy.h:
 
 /usr/include/c++/15/bits/localefwd.h:
 
@@ -2107,11 +2083,15 @@ enc_bootloader_mbedtls_elf.h:
 
 CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o:
 
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h:
+
 /usr/include/bits/types/__fpos64_t.h:
 
 enc_bootloader_elf.h:
 
 /usr/include/asm/types.h:
+
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/get_enc_bootloader.h:
 
 /usr/include/c++/15/iomanip:
 
@@ -2143,9 +2123,15 @@ CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
+/home/julietanilem/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
+
 /usr/include/bits/types/struct_sched_param.h:
 
 /usr/include/c++/15/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/15/bits/functional_hash.h:
+
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_x509.h:
 
 /usr/include/bits/types/struct_tm.h:
 
@@ -2153,11 +2139,13 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/c++/15/bits/algorithmfwd.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/otp.h:
-
 /usr/include/c++/15/bits/align.h:
 
 /usr/include/c++/15/bits/atomic_lockfree_defines.h:
+
+/lib64/libmvec.so.1:
+
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h:
 
 /usr/include/sys/ioctl.h:
 
@@ -2172,6 +2160,8 @@ elf2uf2/libelf2uf2.a:
 /usr/include/c++/15/bits/basic_ios.tcc:
 
 /usr/include/c++/15/bits/std_function.h:
+
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/c++locale.h:
 
@@ -2203,15 +2193,11 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/assert.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami.c:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami++.h:
+/home/julietanilem/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
 
 /usr/include/c++/15/fstream:
 
 /usr/include/c++/15/bits/ostream.tcc:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/elf/addresses.h:
 
 /usr/include/c++/15/bits/shared_ptr_atomic.h:
 
@@ -2221,11 +2207,9 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/c++/15/bits/shared_ptr_base.h:
 
-/usr/include/bits/types/stack_t.h:
-
-/usr/include/c++/15/bits/sstream.tcc:
-
 /usr/include/c++/15/bits/stl_algo.h:
+
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/no_otp.cpp:
 
 /usr/include/c++/15/bits/exception_defines.h:
 
@@ -2239,6 +2223,8 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/c++/15/bits/stl_tempbuf.h:
 
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
+
 /usr/include/c++/15/bits/unique_ptr.h:
 
 /usr/include/c++/15/csignal:
@@ -2250,6 +2236,8 @@ elf2uf2/libelf2uf2.a:
 /usr/include/c++/15/ext/aligned_buffer.h:
 
 /usr/include/c++/15/ios:
+
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami.c:
 
 /usr/include/asm-generic/ioctl.h:
 
@@ -2283,21 +2271,21 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/wctype.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/bignum.h:
-
 /usr/include/sched.h:
 
 /usr/include/c++/15/bits/predefined_ops.h:
 
 /usr/include/sys/single_threaded.h:
 
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
+
 /usr/include/time.h:
+
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
 
 /usr/include/asm/errno.h:
 
 /usr/include/bits/stdint-uintn.h:
-
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_x509.h:
 
 /usr/include/c++/15/ctime:
 
@@ -2307,8 +2295,6 @@ elf2uf2/libelf2uf2.a:
 
 /usr/include/c++/15/bits/exception.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/build_info.h:
-
 /usr/include/c++/15/ostream:
 
 /usr/include/strings.h:
@@ -2317,10 +2303,24 @@ elf2uf2/libelf2uf2.a:
 
 /usr/lib/gcc/x86_64-redhat-linux/15/include/stdbool.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/lib/whereami/whereami.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/aes.h:
+/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_JulietaFlores/build/_deps/picotool-src/main.cpp:
 
-/usr/include/c++/15/bits/alloc_traits.h:
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
 
-/home/julietanilem/sexto_semestre/sistemas_operativos/PracticasSO/Practica5_2_JulietaFlores/build/_deps/pico_sdk-src/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h:
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h:
+
+/usr/include/bits/types/stack_t.h:
+
+/usr/include/c++/15/bits/sstream.tcc:
+
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h:
+
+/usr/include/bits/confname.h:
+
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_ssl.h:
+
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
+
+/home/julietanilem/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
