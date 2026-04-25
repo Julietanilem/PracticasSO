@@ -1,0 +1,14 @@
+# Build files
+build/
+CMakeFiles/
+*.o
+*.elf
+*.bin
+*.uf2
+
+# Pico SDK temp
+pico-sdk/
+_deps/
+
+# Misc
+*.log
