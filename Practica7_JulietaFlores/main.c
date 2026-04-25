@@ -52,7 +52,7 @@ void recovery_landing_zone(void) {
     for(volatile uint32_t i=0; i<8000000; i++) { __asm volatile ("nop"); }
     
     // PERFORM ROLLBACK (Returns execution to setjmp point in main)
-    longjmp(recovery_point, 1);
+    // longjmp(recovery_point, 1);
 
     // --- EVERYTHING BELOW THIS LINE IS UNREACHABLE UNLESS LONGJMP IS REMOVED ---
     
@@ -60,9 +60,10 @@ void recovery_landing_zone(void) {
     // CHALLENGE 1: GRACEFUL DEGRADATION
     // -------------------------------------------------------------------------
     // [STUDENT_TODO]: Activate safe_mode_enabled = true;
-    /* 
+    
+    safe_mode_enabled = true;
     printf("[RECOVERY: DEGRADATION] Switching to safe clinical mode...\n");
-    */
+    longjmp(recovery_point, 1);
 
     // -------------------------------------------------------------------------
     // CHALLENGE 2: TASK RESPAWNING (Simulation)
