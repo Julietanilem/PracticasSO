@@ -20,9 +20,23 @@ jmp_buf recovery_point;
 /* Jump for graceful degradation */
 jmp_buf degradation_point ;
 
+/* Jump for task respawning */
+jmp_buf respawn_point ;
+
 /* Medical Resilience Flags */
 volatile bool safe_mode_enabled = false;
 volatile uint32_t fault_count = 0;
+
+
+typedef struct {
+    uint32_t start_time;
+    uint32_t last_blink;
+    bool state;
+} TaskState;
+
+volatile TaskState task;
+volatile bool respawn_requested = false;
+
 
 /**
  * @brief Clinical Incident Logger.
@@ -57,8 +71,9 @@ void recovery_landing_zone(void) {
     for(volatile uint32_t i=0; i<8000000; i++) { __asm volatile ("nop"); }
     
     // PERFORM ROLLBACK (Returns execution to setjmp point in main)
-    // longjmp(recovery_point, 1);
+    longjmp(recovery_point, 1);
     */
+
     // --- EVERYTHING BELOW THIS LINE IS UNREACHABLE UNLESS LONGJMP IS REMOVED ---
     
     // -------------------------------------------------------------------------
@@ -67,21 +82,28 @@ void recovery_landing_zone(void) {
     // [STUDENT_TODO]: Activate safe_mode_enabled = true;
     
     
-    
+    /*
     printf("[RECOVERY: DEGRADATION] Switching to safe clinical mode...\n");
     safe_mode_enabled = true;
     printf("[RECOVERY] USB Connection maintained. Resuming monitoring...\n");
     
     for(volatile uint32_t i=0; i<8000000; i++) { __asm volatile ("nop"); }
     longjmp(degradation_point, 1);
-    
+    */
 
     // -------------------------------------------------------------------------
     // CHALLENGE 2: TASK RESPAWNING (Simulation)
     // -------------------------------------------------------------------------
     // [STUDENT_TODO]: Reset simulation variables or re-initialize logic.
     
-    // printf("[RECOVERY: RESPAWN] Re-initializing monitor task instance...\n");
+    printf("[RECOVERY: RESPAWN] Re-initializing monitor task instance...\n");
+  
+    respawn_requested = true;
+    printf("[RECOVERY] USB Connection maintained. Resuming monitoring...\n");
+    
+    for(volatile uint32_t i=0; i<8000000; i++) { __asm volatile ("nop"); }
+    longjmp(respawn_point, 1);
+
     
 
     // -------------------------------------------------------------------------
@@ -136,16 +158,35 @@ void setup_mpu_trap(void) {
 }
 
 int main() {
+    
+
     stdio_init_all();
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
     exception_set_exclusive_handler((enum exception_number)3, HardFault_Handler);
     
+    
     setup_mpu_trap();
+
+
+    // Para ver impresion desde el inicio
+    while (!stdio_usb_connected()) {
+        printf("Esperando conexión USB...\n");
+        for(volatile int i=0; i < 1000000; i++){
+            for (volatile int j=0; j < 100; j++);
+        }
+    }
+    printf("Conexión USB establecida.\n");
+
 
     printf("\n=============================================\n");
     printf("   NEXUS MEDICAL: RESILIENCE LABORATORY      \n");
     printf("=============================================\n");
+
+
+    task.start_time = to_ms_since_boot(get_absolute_time());
+    task.last_blink = 0;
+    task.state = false;
 
     while(1) {
         // [CHECKPOINT] System stays here after rollback
@@ -160,25 +201,32 @@ int main() {
         printf("\n[SYSTEM] Resuming heartbeat...\n");
 
         while(1) {
-            // [CHECKPOINT] System stays here after degradation
-            if (setjmp(degradation_point) != 0) {
-                // Degradation logic  go here
-                printf("\n[SYSTEM] Degradation detected. Switching to safe mode.\n");
-            }
 
+             if (setjmp(respawn_point) != 0) {
+                // Respawn logic go here
+                printf("\n[SYSTEM] Respawn detected. Restarting monitor task.\n");
+            }
 
             uint32_t now = to_ms_since_boot(get_absolute_time());
-            
             uint32_t blink_speed = safe_mode_enabled ? 1000 : 200;
+            
+            if (respawn_requested) {
+                printf("[SYSTEM] Task respawned. Clean state restored.\n");
 
-            static uint32_t last_blink = 0;
-            if (now - last_blink > blink_speed) {
-                state = !state;
-                gpio_put(LED_PIN, state);
-                last_blink = now;
+                task.start_time = to_ms_since_boot(get_absolute_time());
+                task.last_blink = 0;
+                task.state = false;
+
+                respawn_requested = false;
+            }
+        
+            if (now - task.last_blink > blink_speed) {
+                task.state = !task.state;
+                gpio_put(LED_PIN, task.state);
+                task.last_blink = now;
             }
 
-            if (now - start_time > 15000 ) {
+            if (now - task.start_time > 15000) {
                 printf("[!] TASK: Attempting critical register write...\n");
                 stdio_flush();
                 *(volatile uint32_t *)TRAP_ADDRESS = 0xBAD;
