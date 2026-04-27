@@ -95,7 +95,7 @@ void recovery_landing_zone(void) {
     // CHALLENGE 2: TASK RESPAWNING (Simulation)
     // -------------------------------------------------------------------------
     // [STUDENT_TODO]: Reset simulation variables or re-initialize logic.
-    
+    /*
     printf("[RECOVERY: RESPAWN] Re-initializing monitor task instance...\n");
   
     respawn_requested = true;
@@ -103,7 +103,7 @@ void recovery_landing_zone(void) {
     
     for(volatile uint32_t i=0; i<8000000; i++) { __asm volatile ("nop"); }
     longjmp(respawn_point, 1);
-
+    */
     
 
     // -------------------------------------------------------------------------
@@ -111,9 +111,12 @@ void recovery_landing_zone(void) {
     // -------------------------------------------------------------------------
     // [STUDENT_TODO]: Implement the hardware reboot using the watchdog.
     // WARNING: This will cause the USB/Putty to disconnect!
-    /* 
+
     printf("[RECOVERY: FAIL-SAFE] Critical failure. Performing hard reboot...\n");
-    */
+
+    for(volatile uint32_t i=0; i<8000000; i++) { __asm volatile ("nop"); }
+  
+    watchdog_reboot(0, 0, 0);  
 }
 
 /**
@@ -157,18 +160,16 @@ void setup_mpu_trap(void) {
     __asm volatile ("isb");
 }
 
-int main() {
-    
 
+int main() {
     stdio_init_all();
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
     exception_set_exclusive_handler((enum exception_number)3, HardFault_Handler);
     
-    
     setup_mpu_trap();
 
-
+    /*
     // Para ver impresion desde el inicio
     while (!stdio_usb_connected()) {
         printf("Esperando conexión USB...\n");
@@ -177,16 +178,10 @@ int main() {
         }
     }
     printf("Conexión USB establecida.\n");
-
-
+    */
     printf("\n=============================================\n");
     printf("   NEXUS MEDICAL: RESILIENCE LABORATORY      \n");
     printf("=============================================\n");
-
-
-    task.start_time = to_ms_since_boot(get_absolute_time());
-    task.last_blink = 0;
-    task.state = false;
 
     while(1) {
         // [CHECKPOINT] System stays here after rollback
@@ -201,32 +196,18 @@ int main() {
         printf("\n[SYSTEM] Resuming heartbeat...\n");
 
         while(1) {
-
-             if (setjmp(respawn_point) != 0) {
-                // Respawn logic go here
-                printf("\n[SYSTEM] Respawn detected. Restarting monitor task.\n");
-            }
-
             uint32_t now = to_ms_since_boot(get_absolute_time());
-            uint32_t blink_speed = safe_mode_enabled ? 1000 : 200;
             
-            if (respawn_requested) {
-                printf("[SYSTEM] Task respawned. Clean state restored.\n");
+            uint32_t blink_speed = safe_mode_enabled ? 1000 : 200;
 
-                task.start_time = to_ms_since_boot(get_absolute_time());
-                task.last_blink = 0;
-                task.state = false;
-
-                respawn_requested = false;
-            }
-        
-            if (now - task.last_blink > blink_speed) {
-                task.state = !task.state;
-                gpio_put(LED_PIN, task.state);
-                task.last_blink = now;
+            static uint32_t last_blink = 0;
+            if (now - last_blink > blink_speed) {
+                state = !state;
+                gpio_put(LED_PIN, state);
+                last_blink = now;
             }
 
-            if (now - task.start_time > 15000) {
+            if (now - start_time > 15000) {
                 printf("[!] TASK: Attempting critical register write...\n");
                 stdio_flush();
                 *(volatile uint32_t *)TRAP_ADDRESS = 0xBAD;
@@ -234,3 +215,4 @@ int main() {
         }
     }
 }
+

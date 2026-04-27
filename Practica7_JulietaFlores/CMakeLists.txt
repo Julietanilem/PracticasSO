@@ -14,7 +14,7 @@ add_executable(mpu_debug
 )
 
 # Pull in common dependencies
-target_link_libraries(mpu_debug pico_stdlib hardware_exception)
+target_link_libraries(mpu_debug pico_stdlib hardware_exception hardware_watchdog)
 
 # Enable USB output
 pico_enable_stdio_usb(mpu_debug 1)
